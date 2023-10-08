@@ -1,0 +1,17 @@
+.score_section {
+    background-image: url('https://i.postimg.cc/gJBCWcNd/score.png');
+    background-size: 100% 100%;
+    /* opacity: 0.5; */
+}
+
+p {
+    font-size: 5rem;
+    color:brown;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
