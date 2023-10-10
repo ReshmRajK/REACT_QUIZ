@@ -66,10 +66,10 @@ function Quiz() {
 
     return (
 
-        <div className='d-flex justify-content-center align-items-center quizPage' style={{ height: '100vh' }}>
+        <div className='d-flex justify-content-center align-items-center quizPage' style={{ height: '100vh',width:'100vw' }}>
             
             {allQuestions.length > 0 ? (
-                <div className='container w-50 text-center p-5 question_section'>
+                <div className='container w-100 text-center p-5 question_section'>
 
                     <h3 className='mt-5'>{activeIndex+1+')'} {allQuestions[activeIndex].question}</h3>
 
